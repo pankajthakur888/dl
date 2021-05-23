@@ -15,3 +15,6 @@ below command show " format code  extension  resolution note "
  youtube-dl -F "https://www.youtube.com/watch?v=0w62ddeVwGE&ab_channel=T-SeriesT-SeriesVerified"
 
  youtube-dl -f 137+251 --merge-output-format mkv "https://www.youtube.com/watch?v=0w62ddeVwGE&ab_channel=T-SeriesT-SeriesVerified"
+ 
+ 
+ rename 's/\s/_/g' ./*.mkv
